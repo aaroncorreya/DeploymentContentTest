@@ -18,6 +18,9 @@
         "queryPeriod": "P2DT1H30M",
         "triggerOperator": "GreaterThan",
         "triggerThreshold": 0,
+        "eventGroupingSettings": {
+          "aggregationKind": "SingleAlert"
+        },
         "severity": "Medium",
         "query": "SecurityAlert | take 10",
         "suppressionDuration": "PT1H",
@@ -30,20 +33,20 @@
             "lookbackDuration": "PT5M",
             "matchingMethod": "AllEntities",
             "groupByEntities": [],
-            "groupByAlertDetails": null,
-            "groupByCustomDetails": null
+            "groupByAlertDetails": [],
+            "groupByCustomDetails": []
           }
         },
         "tactics": [
           "InitialAccess",
           "Persistence"
         ],
-        "techniques": null,
+        "techniques": [],
         "displayName": "Critical Threat Detected 1",
         "enabled": false,
-        "description": "MPO rule description",
+        "description": "MPO rule description updated",
         "alertRuleTemplateName": null,
-        "lastModifiedUtc": "2021-10-12T00:27:09.8369007Z"
+        "lastModifiedUtc": "2022-10-26T23:14:32.2622308Z"
       }
     }
   ]
