@@ -44,9 +44,9 @@
         "techniques": [],
         "displayName": "Critical Threat Detected 1",
         "enabled": false,
-        "description": "MPO rule description updated",
+        "description": "MPO rule description",
         "alertRuleTemplateName": null,
-        "lastModifiedUtc": "2022-10-26T23:14:32.2622308Z"
+        "lastModifiedUtc": "2022-10-28T20:39:10.7020476Z"
       }
     }
   ]
