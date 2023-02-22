@@ -14,7 +14,7 @@
             "kind": "Scheduled",
             "apiVersion": "2022-09-01-preview",
             "properties": {
-                "displayName": "Known ZINC Comebacker and Klackring malware hashes",
+                "displayName": "Known ZINC Comebacker and Klackring malware hashes ",
                 "description": "ZINC attacks against security researcher campaign malware hashes.",
                 "severity": "High",
                 "enabled": false,
